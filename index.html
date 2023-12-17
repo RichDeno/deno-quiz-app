@@ -2,8 +2,22 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
         <title>Deno Quiz App</title>
     </head>
-    <body></body>
+
+    <body>
+        <div class="panel">
+            <h1>WELCOME TO DENO QUIZ APP</h1>
+            <h3>Wanna take a brain teaser?</h3>
+            <div class="question" id="ques"></div>
+            <div class="options" id="opt"></div>
+            <button onclick="checkAns()" id="btn">SUBMIT</button>
+            <div id="score"></div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
 </html>
